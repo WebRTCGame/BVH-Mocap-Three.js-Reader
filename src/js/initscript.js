@@ -2,7 +2,7 @@ var init = function init(){
     console.log("init start");
     
 
-	requestFile( '../bvh-truebones/TPOSE.bvh' );
+	requestFile( './bvh-truebones/TPOSE.bvh' );
 	
 	Bvh.info.innerHTML = '<h1>Jaanga BVH Reader - Truebones files</h1>' +
 		'<select id=selBvh onchange=requestFile("../bvh-truebones/"+Bvh.files[this.selectedIndex]) ></select> ' +
